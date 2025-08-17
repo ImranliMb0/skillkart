@@ -1,46 +1,76 @@
-# Getting Started with Create React App
+# 🛒 SkillKart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SkillKart is a smart e-commerce platform built by **Team CodeCrafters** for managing and selling products online — starting with a cake business use case.  
+It combines **Firebase**, **React**, and **automation tools** to create a smooth shopping experience for customers and sellers.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
+- 👨‍🍳 **Cake Business Demo** – Customers can browse cakes & place orders
+- 💳 **UPI Payment Integration** – Secure order confirmation via transaction ID
+- 📦 **Order Management** – Orders stored in Firebase Firestore
+- 📊 **Google Sheets Automation** – Every order automatically logged
+- 📧 **Email Notifications** – Sellers notified via Gmail (Google Apps Script / Zapier)
+- 💬 **Chatling AI Bot** – Integrated chatbot to help users with cake-related queries
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🛠️ Tech Stack
+- **Frontend:** React + TypeScript  
+- **Backend / DB:** Firebase (Auth + Firestore)  
+- **Automation:** Google Apps Script + Zapier  
+- **Proxy Server:** Node.js + Express (CORS proxy for Apps Script)  
+- **Other Tools:** Chatling AI, GitHub
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 📂 Project Structure
+skillkart/
+│── src/ # React frontend code
+│ ├── customer/ # Customer UI (Payment, Cart, Marketplace)
+│ ├── seller/ # Seller dashboard (future)
+│ ├── CartContext.tsx
+│ ├── firebase.ts # Firebase config
+│── functions/ # Node.js CORS proxy server
+│── public/ # Static assets (images, etc.)
+│── .gitignore
+│── package.json
+│── README.md
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚡ Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1) Clone the repo
+```bash
+git clone https://github.com/<your-username>/skillkart.git
+cd skillkart
+npm install
+npm start
+cd functions
+node server.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🤝 Team
 
-### `npm run eject`
+Mohammed Imran YM
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Prathap Umesh
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Harshvardhan
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Team Name: CodeCrafters
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+🏆 Hackathon Journey
 
-## Learn More
+Selected among 78 teams across India
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Built SkillKart in a short span during the hackathon
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Gained experience in teamwork, problem-solving, and real-world deployment
+
+
+
+
+
+
